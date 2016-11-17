@@ -1,0 +1,14 @@
+{
+    "title": "表达式求值",
+    "meta": {
+        "time_limit": "1s",
+        "memory_limit": "128MB"
+    },
+    "subtask_count": 1,
+    "subtasks": [
+        {
+            "score": 100,
+            "testcase_count": 10
+        }
+    ]
+}

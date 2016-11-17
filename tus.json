@@ -1,0 +1,28 @@
+[
+	{
+		"cmd": "compile",
+		"sourceId": 0,
+		"langs": {
+			"g++": {
+			}
+		}
+	}, {
+		"cmd": "exec",
+		"binId": 0,
+		"timeLimit": "1000",
+		"memLimit": "256",
+		"inputFile": "data/1.in"
+	}, {
+		"cmd": "judge",
+		"ansId": 1,
+		"checker": "default",
+		"stdOutputFile": "data/1.out"
+	}, {
+		"cmd": "score",
+		"compoments": {
+			"fullScore": 100,
+			"func": "sum",
+			"compoments": [ 0 ]
+		}
+	}
+]
