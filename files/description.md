@@ -42,7 +42,7 @@
 
 输入文件只有一行（以换行符结束），只包含一个需要处理的表达式。
 
-表达式的长度不超过100，不会出现任何空格等多余字符。
+表达式的长度不超过 $100$，不会出现任何空格等多余字符。
 
 ## 【输出格式】
 
@@ -154,12 +154,55 @@ a+b+c+d+e*f*g*h*i*(j-k-l-m-n)
 ## 【测试点】
 
 测试点1：包含常量、加减号
+
 测试点2：包含常量、四则运算符
+
 测试点3：包含常量、加减号、括号
+
 测试点4：包含常量、四则运算符、括号
+
 测试点5：包含常量、普通函数调用
+
 测试点6：包含常量、成员函数调用
+
 测试点7：包含常量、普通函数调用、成员函数调用、括号
+
 测试点8：包含常量、四则运算符、普通函数调用、括号
+
 测试点9：包含常量、四则运算符、成员函数调用、括号
+
 测试点10：包含常量、四则运算符、普通函数调用、成员函数调用、括号
+
+| 我    |      |      |
+| ---- | ---- | ---- |
+| 是    |      |      |
+| 一    |      |      |
+| 个    | 表    | 格    |
+
+```c++
+#include <iostream>
+struct Point{
+  double x, y;
+}point;
+int main(){
+  std::cin >> point.x >> point.y;
+  return 0;
+}
+```
+
+![UOJ_small](http://uoj.ac/pictures/UOJ_small.png)
+
+<table class="table table-bordered table-hover table-striped table-text-center"><thead><tr><th>ID</th><th>题目</th><th>提交者</th><th>结果</th><th>用时</th><th>内存</th><th>语言</th><th>文件大小</th><th>提交时间</th></tr></thead><tbody><tr><td><a href="/submission/109670">#109670</a></td><td><a href="/problem/149">#149. 【NOIP2015】子串</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/DraZxlNDDt" style="color:rgb(75,175,178)">DraZxlNDDt</a></td><td><a href="/submission/109670" class="uoj-score" style="color: rgb(230, 207, 0);">40</a></td><td>112ms</td><td>3284kb</td><td><a href="/submission/109670">C++</a></td><td>814b</td><td><small>2016-11-17 21:49:25</small></td></tr><tr><td><a href="/submission/109669">#109669</a></td><td><a href="/problem/17">#17. 【NOIP2014】飞扬的小鸟</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/rabbit_lb" style="color:rgb(71,185,157)">rabbit_lb</a></td><td><a href="/submission/109669" class="uoj-score" style="color: rgb(218, 230, 0);">55</a></td><td>78ms</td><td>27768kb</td><td><a href="/submission/109669">C++</a></td><td>1.4kb</td><td><small>2016-11-17 21:47:47</small></td></tr><tr><td><a href="/submission/109668">#109668</a></td><td><a href="/problem/146">#146. 【NOIP2015】信息传递</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/cytusbox" style="color:rgb(75,175,178)">cytusbox</a></td><td><a href="/submission/109668" class="uoj-score" style="color: rgb(0, 204, 0);">100</a></td><td>182ms</td><td>7544kb</td><td><a href="/submission/109668">C++</a></td><td>1005b</td><td><small>2016-11-17 21:44:02</small></td></tr><tr><td><a href="/submission/109667">#109667</a></td><td><a href="/problem/145">#145. 【NOIP2015】神奇的幻方</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/cytusbox" style="color:rgb(75,175,178)">cytusbox</a></td><td><a href="/submission/109667" class="uoj-score" style="color: rgb(0, 204, 0);">100</a></td><td>2ms</td><td>1240kb</td><td><a href="/submission/109667">C++</a></td><td>470b</td><td><small>2016-11-17 21:39:26</small></td></tr><tr><td><a href="/submission/109666">#109666</a></td><td><a href="/problem/147">#147. 【NOIP2015】斗地主</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/cytusbox" style="color:rgb(75,175,178)">cytusbox</a></td><td><a href="/submission/109666" class="uoj-score" style="color: rgb(0, 204, 0);">100</a></td><td>114ms</td><td>516kb</td><td><a href="/submission/109666">C++</a></td><td>2.8kb</td><td><small>2016-11-17 21:37:30</small></td></tr><tr><td><a href="/submission/109665">#109665</a></td><td><a href="/problem/148">#148. 【NOIP2015】跳石头</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/cytusbox" style="color:rgb(75,175,178)">cytusbox</a></td><td><a href="/submission/109665" class="uoj-score" style="color: rgb(0, 204, 0);">100</a></td><td>110ms</td><td>1376kb</td><td><a href="/submission/109665">C++</a></td><td>510b</td><td><small>2016-11-17 21:34:30</small></td></tr><tr><td><a href="/submission/109664">#109664</a></td><td><a href="/problem/150">#150. 【NOIP2015】运输计划</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/cytusbox" style="color:rgb(75,175,178)">cytusbox</a></td><td><a href="/submission/109664" class="uoj-score" style="color: rgb(122, 230, 0);">97</a></td><td>1445ms</td><td>73416kb</td><td><a href="/submission/109664">C++</a></td><td>3.0kb</td><td><small>2016-11-17 21:29:06</small></td></tr><tr><td><a href="/submission/109663">#109663</a></td><td><a href="/problem/1">#1. A + B Problem</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/cytusbox" style="color:rgb(75,175,178)">cytusbox</a></td><td><a href="/submission/109663" class="uoj-score" style="color: rgb(0, 204, 0);">100</a></td><td>3ms</td><td>1196kb</td><td><a href="/submission/109663">C++</a></td><td>113b</td><td><small>2016-11-17 21:28:46</small></td></tr><tr><td><a href="/submission/109662">#109662</a></td><td><a href="/problem/150">#150. 【NOIP2015】运输计划</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/orzNanoApe" style="color:rgb(65,194,114)">orzNanoApe</a></td><td><a href="/submission/109662" class="uoj-score" style="color: rgb(0, 204, 0);">100</a></td><td>1299ms</td><td>51516kb</td><td><a href="/submission/109662">C++</a></td><td>2.3kb</td><td><small>2016-11-17 21:24:50</small></td></tr><tr><td><a href="/submission/109661">#109661</a></td><td><a href="/problem/17">#17. 【NOIP2014】飞扬的小鸟</a></td><td><a class="uoj-username" href="http://uoj.ac/user/profile/zrnlkc" style="color:rgb(64,195,110)">zrnlkc</a></td><td><a href="/submission/109661" class="uoj-score" style="color: rgb(172, 230, 0);">75</a></td><td>283ms</td><td>40848kb</td><td><a href="/submission/109661">C++</a></td><td>1.0kb</td><td><small>2016-11-17 21:22:14</small></td></tr></tbody></table>
+
+<a href="www.baidu.com">百度一下，你就中毒</a>
+$$
+\frac{-b\pm\sqrt{b^2-4ac}}{2a} \\
+O\left( n^{\sqrt{\log n}} \right) \\
+\left|
+\begin{matrix}
+ 2& -1&  0 \\
+-1&  3& -1 \\
+-1& -1&  3
+\end{matrix}
+\right| = 12
+$$
